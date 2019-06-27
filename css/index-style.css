@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 1s;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler {
+    border: solid 2px #f1f1f1;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar-nav {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-item a {
+    color: #fff !important;
+    font-weight: 700;
+}
+
+.slider {
+    height: 50px;
+}
+
+.sec1 {
+    background-color: #f1f1f1;
+    height: 630px;
+    padding-top: 80px;
+}
+
+
+.sec2 {
+    background-color: #f9f9f9;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.sec2 h3 {
+    font-size: 40px;
+}
+
+.sec2 p {
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+    padding-top: 20px;
+}
+
+.text {
+    padding-left: 25px;
+}
+
+.btn-a {
+    font-weight: 500;
+    padding: 8 25px;
+    background-color: #60a16f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec3 h2 {
+    font-size: 45px;
+    padding-bottom: 50px;
+}
+
+.sec3 span {
+    font-weight: 200;
+}
+
+
+.serv1 {
+    background-color: firebrick;
+    text-align: center;
+    position: relative;
+    border: solid 4px #fff;
+    overflow: hidden;
+    border-radius: 5%;
+
+    animation-name: serv1;
+    animation-duration: 3s;
+
+
+}
+
+
+@keyframes serv1 {
+    0% {
+
+        left: -3000;
+        opacity: 0.3;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+}
+
+
+
+
+.serv1 img {
+    width: 100%;
+
+}
+
+.serv1:hover img {
+    transform: scale(1.2);
+}
+
+.first {
+    color: #fff;
+    background-color: rgba(42, 63, 85, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+
+
+}
+
+.serv1:hover .first {
+    transform: rotate(360deg);
+    opacity: 1;
+}
+
+.first h2 {
+    background-color: #2A3F55;
+    padding: 10px;
+    left: 120%;
+    transition-delay: 1s;
+    position: relative;
+    font-size: 22px;
+    color: #fff;
+
+}
+
+.serv1:hover h2 {
+    left: 0;
+
+}
+
+.first p {
+    padding: 20px;
+    font-size: 18px;
+    left: 120%;
+    transition-delay: 2s;
+    position: relative;
+
+
+}
+
+.serv1:hover p {
+    left: 0;
+}
+
+
+
+
+
+
+
+
+.serv2 {
+    background-color: firebrick;
+    text-align: center;
+    position: relative;
+    border: solid 4px #fff;
+    overflow: hidden;
+    border-radius: 5%;
+
+    animation-name: serv2;
+    animation-duration: 3s;
+
+}
+
+@keyframes serv2 {
+    0% {
+
+        top: -1000;
+        opacity: 0.3;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+}
+
+
+
+.serv2 img {
+    width: 100%;
+
+}
+
+.serv2:hover img {
+    transform: scale(1.2);
+}
+
+.second {
+    color: #fff;
+    background-color: rgba(42, 63, 85, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+
+
+}
+
+.serv2:hover .second {
+    transform: rotate(360deg);
+    opacity: 1;
+}
+
+.second h2 {
+    background-color: #2A3F55;
+    padding: 10px;
+    left: 120%;
+    transition-delay: 1s;
+    position: relative;
+    font-size: 22px;
+    color: #fff;
+
+}
+
+.serv2:hover h2 {
+    left: 0;
+
+}
+
+.second p {
+    padding: 20px;
+    font-size: 18px;
+    left: 120%;
+    transition-delay: 2s;
+    position: relative;
+
+
+}
+
+.serv2:hover p {
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.serv3 {
+    background-color: firebrick;
+    text-align: center;
+    position: relative;
+    border: solid 4px #fff;
+    overflow: hidden;
+    border-radius: 5%;
+
+    animation-name: serv3;
+    animation-duration: 3s;
+
+}
+
+@keyframes serv3 {
+    0% {
+
+        left: 1000;
+        opacity: 0.3;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+}
+
+.serv3 img {
+    width: 100%;
+
+}
+
+.serv3:hover img {
+    transform: scale(1.2);
+}
+
+.third {
+    color: #fff;
+    background-color: rgba(42, 63, 85, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+
+
+}
+
+.serv3:hover .third {
+    transform: rotate(360deg);
+    opacity: 1;
+}
+
+.third h2 {
+    background-color: #2A3F55;
+    padding: 10px;
+    left: 120%;
+    transition-delay: 1s;
+    position: relative;
+    font-size: 22px;
+    color: #fff;
+
+}
+
+.serv3:hover h2 {
+    left: 0;
+
+}
+
+.third p {
+    padding: 20px;
+    font-size: 18px;
+    left: 120%;
+    transition-delay: 2s;
+    position: relative;
+
+
+}
+
+.serv3:hover p {
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec4 {
+
+    background-color: #f1f1f1;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+}
+
+
+.sec4 h2 {
+    font-size: 45px;
+    padding-bottom: 50px;
+}
+
+.sec4 span {
+    font-weight: 200;
+}
+
+.team-bk {
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.team-text {
+    background-color: #fff;
+
+}
+
+.team-text h3 {
+    padding-top: 20px;
+}
+
+.team-text p {
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.team-bk img {
+    transition: all 1s;
+}
+
+.team-bk:hover img {
+    transform: scale(1.08);
+    transition: all 1s;
+
+
+}
+
+.sec5 {
+    background-color: #1a1a1a;
+    padding: 8% 1px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #6a6a6a;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 2%;
+}
+
+.in-bor {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-bottom-color: #6a6a6a;
+}
+
+.r-left {
+    color: #6a6a6a;
+}
+
+.btn {
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 6px 25px;
+}
+
+.btn:hover {
+    background-color: #ec3237;
+}
