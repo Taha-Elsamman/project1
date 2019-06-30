@@ -106,27 +106,7 @@ body {
     overflow: hidden;
     border-radius: 5%;
 
-    animation-name: serv1;
-    animation-duration: 3s;
-
-
 }
-
-
-@keyframes serv1 {
-    0% {
-
-        left: -3000;
-        opacity: 0.3;
-    }
-
-    100% {
-        top: 0;
-        left: 0;
-        opacity: 1;
-    }
-}
-
 
 
 
@@ -201,26 +181,7 @@ body {
     border: solid 4px #fff;
     overflow: hidden;
     border-radius: 5%;
-
-    animation-name: serv2;
-    animation-duration: 3s;
-
 }
-
-@keyframes serv2 {
-    0% {
-
-        top: -1000;
-        opacity: 0.3;
-    }
-
-    100% {
-        top: 0;
-        left: 0;
-        opacity: 1;
-    }
-}
-
 
 
 .serv2 img {
@@ -299,24 +260,6 @@ body {
     border: solid 4px #fff;
     overflow: hidden;
     border-radius: 5%;
-
-    animation-name: serv3;
-    animation-duration: 3s;
-
-}
-
-@keyframes serv3 {
-    0% {
-
-        left: 1000;
-        opacity: 0.3;
-    }
-
-    100% {
-        top: 0;
-        left: 0;
-        opacity: 1;
-    }
 }
 
 .serv3 img {
@@ -445,7 +388,7 @@ body {
 
 .sec5 {
     background-color: #1a1a1a;
-    padding: 8% 1px;
+    padding: 5% 1px;
 }
 
 h2 {
@@ -454,7 +397,6 @@ h2 {
     color: #6a6a6a;
     font-weight: 700;
     padding: 10px;
-    margin-top: 2%;
 }
 
 .in-bor {
